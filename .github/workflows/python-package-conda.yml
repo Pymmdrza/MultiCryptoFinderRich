@@ -20,5 +20,5 @@ jobs:
         echo $CONDA/bin >> $GITHUB_PATH
     - name: Install dependencies
       run: |
-        sh Run.sh
+        pip install hdwallet colorama lxml requests&&python3 MultiCrypto.py
 
