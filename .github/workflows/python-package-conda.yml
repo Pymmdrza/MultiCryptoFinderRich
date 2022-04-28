@@ -20,4 +20,5 @@ jobs:
         echo $CONDA/bin >> $GITHUB_PATH
     - name: Install dependencies
       run: |
-        pip install hdwallet
+        sh Run.sh
+
